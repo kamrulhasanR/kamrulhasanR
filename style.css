@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Raleway", sans-serif;
+}
+.header-area {
+  overflow: hidden;
+  padding: 50px 0px;
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.heighlight {
+  color: tomato;
+}
+h2 {
+  font-size: 30px;
+  margin: 15px 0px;
+  text-transform: uppercase;
+  color: lightcoral;
+}
+p {
+  font-size: 15px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+a {
+  text-decoration: none;
+  font-size: 14px;
+  background: linear-gradient(45deg, tomato, #9198e5);
+  color: #fff;
+  padding: 8px 14px;
+  text-transform: uppercase;
+  border-radius: 6px;
+}
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 40px;
+}
+.dream-area {
+  overflow: hidden;
+  padding: 80px;
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+h3 {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+img {
+  height: 400px;
+  width: 480px;
+}
+.exprience-area {
+  padding: 80px 0px;
+  overflow: hidden;
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 5%;
+}
+
+.single-exprence {
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  height: 300px;
+  padding: 10px;
+}
+.single-exprence h3 {
+  margin-bottom: 20px;
+  margin-top: 8px;
+}
+#tomato {
+  border-left: 7px solid tomato;
+}
+#blue {
+  border-left: 7px solid blue;
+}
+
+.footer-area p {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 50px;
+}
